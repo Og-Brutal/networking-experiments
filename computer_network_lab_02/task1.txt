@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# 1. Create directories
+mkdir -p ~/lab_incident/logs/archive
+mkdir -p ~/lab_incident/conf
+mkdir -p ~/lab_incident/data
+
+# 2. Create dummy log files
+for i in {1..5}; do
+    echo "2023-10-2$i 01:00:00 INFO Service started" > ~/lab_incident/logs/server_$i.log
+    echo "2023-10-2$i 02:15:00 ERROR ConnectionRefused: DB_HOST_1" >> ~/lab_incident/logs/server_$i.log
+    echo "2023-10-2$i 03:00:00 INFO Service stopped" >> ~/lab_incident/logs/server_$i.log
+done
+
+# 3. Create a hidden "rogue" file
+echo "SECRET_KEY=12345" > ~/lab_incident/conf/.hidden_config
+
+# 4. Create a locked script that needs permission fixing
+echo "#!/bin/bash" > ~/lab_incident/data/restart_service.sh
+echo "echo 'Service Restarted'" >> ~/lab_incident/data/restart_service.sh
+chmod 000 ~/lab_incident/data/restart_service.sh
+
+# 5. Create a massive messy file
+echo -e "User:Alice IP:192.168.1.5\nUser:Bob IP:192.168.1.10\nUser:Alice IP:192.168.1.5\nUser:Charlie IP:192.168.1.20" > ~/lab_incident/logs/access.raw
+
+# 6. Notify user
+zenity --info --text="Lab Environment Setup Complete!" --title="Success" 2>/dev/null || echo "Setup Complete"

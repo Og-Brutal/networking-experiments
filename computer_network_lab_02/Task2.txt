@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# ===============================
+# Lab Environment Setup Script
+# ===============================
+
+# 1. Create directories
+mkdir -p ~/lab/logs/archive
+mkdir -p ~/lab/conf
+mkdir -p ~/lab/data
+
+# 2. Create dummy log files with INFO, WARNING, FAILED LOGIN, ERROR entries
+for i in {1..5}; do
+    LOG_FILE=~/lab/logs/server_$i.log
+    echo "2026-01-2$i 00:50:00 INFO Pre-check completed" > $LOG_FILE
+    echo "2026-01-2$i 01:30:00 WARNING Disk usage high" >> $LOG_FILE
+    echo "2026-01-2$i 02:00:00 FAILED LOGIN User:Alice IP:192.168.1.$((i*2))" >> $LOG_FILE
+    echo "2026-01-2$i 02:15:00 ERROR ConnectionRefused: DB_HOST_$i" >> $LOG_FILE
+    echo "2026-01-2$i 03:00:00 INFO Service stopped" >> $LOG_FILE
+done
+
+# 3. Create a hidden backup config file and a tampered app.conf
+echo "DB_HOST=DB_HOST_1
+DB_PORT=3306
+APP_MODE=production" > ~/lab/conf/.config_backup
+
+echo "DB_HOST=DB_HOST_1
+DB_PORT=3306
+APP_MODE=development" > ~/lab/conf/app.conf
+
+# 4. Create a locked restart script that needs permission fixing
+echo "#!/bin/bash" > ~/lab/data/restart_service.sh
+echo "echo 'Service Restarted'" >> ~/lab/data/restart_service.sh
+chmod 000 ~/lab/data/restart_service.sh
+
+# 5. Create a backup script with partial permissions
+echo "#!/bin/bash" > ~/lab/data/backup.sh
+echo "echo 'Backup Completed'" >> ~/lab/data/backup.sh
+chmod 750 ~/lab/data/backup.sh
+
+# 6. Create messy access log file for data cleaning practice
+echo -e "User:Alice IP:192.168.1.5\nUser:Bob IP:192.168.1.10\nUser:Alice IP:192.168.1.5\nUser:Charlie IP:192.168.1.20\nUser:Bob IP:192.168.1.10" > ~/lab/logs/access.raw
+
+# 7. Notify user that lab setup is complete
+zenity --info --text="Lab 3 Environment Setup Complete!" --title="Success" 2>/dev/null || echo "Lab 2 Setup Complete!"
