@@ -93,6 +93,23 @@ Layer 1  Physical       DCE/DTE cabling / Clock rate configuration / WIC-2T modu
 
 ---
 
+## How to Reproduce This Lab
+
+1. Open **Cisco Packet Tracer** (version 8.x recommended)
+2. Place one **2621XM** router as R1 (main/core router) at the center
+3. Place four **2621XM** routers as B1–B4 (branch routers) around R1
+4. For R1: Click router → Physical tab → Turn OFF power → Insert **WIC-2T** module → Turn ON power
+5. Place two **2960-24TT** switches per branch (8 switches total)
+6. Cable devices:
+   - **Serial cables** (DCE/DTE): R1 to each branch router (R1 is DCE side)
+   - **Ethernet cables** (Straight-through): Branch routers to their switches
+7. Configure IP addresses on all interfaces via **Config tab** or **CLI**
+8. Set **clock rate 64000** on R1's serial interfaces (DCE side)
+9. Configure **static and default routes** on all routers
+10. Verify connectivity using `ping` from R1's CLI — expect `!!!!!` (100% success)
+
+---
+
 ## Repository Structure
 
 ```
@@ -102,3 +119,18 @@ computer_networks_lab_04/
 ├── CN_Lab05_Solution_Explained.pdf     <- Full professional lab report with annotated screenshots
 └── Lab 5 week 5  (1).docx             <- Lab manual provided by instructor
 ```
+
+---
+
+## References
+
+- Cisco Packet Tracer: https://www.netacad.com/courses/packet-tracer
+- IP Subnetting Guide (RFC 950): https://datatracker.ietf.org/doc/html/rfc950
+- Static Routing Configuration: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_pi/configuration/xe-16/iri-xe-16-book/iri-static-route.html
+- IPv4 Header Format (RFC 791): https://datatracker.ietf.org/doc/html/rfc791
+
+---
+
+## License
+
+This repository is submitted as academic coursework for CL3001 - Computer Networks at NUCES Chiniot-Faisalabad. All content is for educational purposes.
