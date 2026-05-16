@@ -1,4 +1,4 @@
-# Computer Networks Laboratory Portfolio
+﻿# Computer Networks Laboratory Portfolio
 
 ## Overview
 This repository serves as a centralized portfolio for my Computer Networks laboratory coursework. The primary objective of this repository is to document and version control my progression through the curriculum by pushing each laboratory assignment and experiment incrementally. 
@@ -20,6 +20,7 @@ Current modules include:
 *   `computer_networks_lab_01/`
 *   `computer_network_lab_02/`
 *   `computer_networks_lab_03/`
+*   `computer_networks_lab_04/`
 
 *Note: This structure will be continuously updated as new laboratory assignments are completed and added to the repository.*
 
