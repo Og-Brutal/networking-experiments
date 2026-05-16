@@ -21,6 +21,7 @@ Current modules include:
 *   `computer_network_lab_02/`
 *   `computer_networks_lab_03/`
 *   `computer_networks_lab_04/`
+*   `computer_networks_lab_05/`
 
 *Note: This structure will be continuously updated as new laboratory assignments are completed and added to the repository.*
 
