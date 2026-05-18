@@ -19,7 +19,6 @@ deployment, and troubleshooting.
 - **Credits**: 2 Lab Credits
 - **Prerequisites**: Lab 01-04 completion
 - **Repository**: Og-Brutal/networking-experiments
-- **Status**: Active
 
 ## Included Files
 
@@ -36,10 +35,9 @@ deployment, and troubleshooting.
 **Week**: Week 6
 **Description**: Advanced networking implementation with complete solution reference
 **Key Topics**: Protocol analysis, network optimization, security implementation
-**Learning Outcomes**: Prepare for advanced networking concepts
 
 Lab 6 builds upon the concepts learned in Lab 5. The manual document provides detailed instructions and solutions.
-The solution manual can be used as a reference for understanding advanced implementation techniques and best practices.
+The solution manual can be used as a reference for understanding advanced implementation techniques.
 
 ### Lab Series Progression
 - Lab 01 - Networking Fundamentals (Week 1) - Foundation concepts
@@ -50,19 +48,15 @@ The solution manual can be used as a reference for understanding advanced implem
 - Lab 06 - Advanced Implementation (Week 6 - Solution Available) - Optimization
 
 ## Requirements
-
-### Software Requirements
 - Microsoft Word or compatible document viewer (e.g., LibreOffice, Google Docs)
 - Standard text editor for scripting and configuration files (VS Code, Sublime Text, Vim)
 - Network simulation tools or real network environment as required
-- Network analysis tools (Wireshark recommended)
-- Version control system (Git) for code management
-- Development environment with compiler/interpreter
-
-### Knowledge Requirements
 - Basic networking knowledge from Lab 1-4
 - Linux/Unix command line experience recommended
 - Programming language knowledge (Python, C, or similar) for implementation
+- Network analysis tools (Wireshark recommended)
+- Version control system (Git) for code management
+- Development environment with compiler/interpreter
 - Networking protocols knowledge
 - System administration basics
 
@@ -80,7 +74,6 @@ This lab series helps students understand:
 - Software-defined networking concepts
 - Network automation and scripting
 - Capacity planning and network design
-- Troubleshooting and diagnostic skills
 
 ## File Format Support
 The included .docx files can be opened with:
@@ -101,19 +94,17 @@ The included .docx files can be opened with:
 7. Use version control for all changes
 8. Create regular commits for your work
 9. Review Lab 6 solution (23F3043_CN_Lab_06) for reference
-10. Verify completion of all requirements
 
 ## Lab Workflow
 1. **Preparation**: Review all documentation and prerequisites
 2. **Implementation**: Write and test code/configurations
 3. **Testing**: Verify all functionality against requirements
 4. **Documentation**: Record findings and observations
-5. **Troubleshooting**: Debug any issues encountered
-6. **Analysis**: Analyze results and performance metrics
-7. **Review**: Check Lab 6 solution for reference and best practices
+5. **Troubleshooting**: Debug any issues
+6. **Analysis**: Analyze results and performance
+7. **Review**: Check Lab 6 solution for reference
 8. **Submission**: Complete lab report with results
-9. **Reflection**: Document lessons learned and improvements
-10. **Archive**: Keep backup of completed work
+9. **Reflection**: Document lessons learned
 
 ## Notes
 - Ensure you have the appropriate software to view .docx files
@@ -128,7 +119,6 @@ The included .docx files can be opened with:
 - Review Lab 6 solution manual for reference implementations
 - Maintain organized repository structure
 - Verify network connectivity before testing
-- Keep detailed logs of all testing and debugging
 
 ## Additional Resources
 For Lab 6 solutions and advanced topics, refer to:
@@ -137,14 +127,9 @@ For Lab 6 solutions and advanced topics, refer to:
 - Official course materials and lecture notes
 - Recommended textbooks on networking
 - Online networking simulation tools and documentation
-- Industry standards and RFCs
 
 ## Support
-For questions or clarification on lab content, refer to:
-- Official lab manual and course materials
-- Lab 6 solution (23F3043_CN_Lab_06) for reference
-- Course instructor or teaching assistant
-- Lab documentation files
+For questions or clarification on lab content, refer to the official lab manual and course materials.
 
 ## Completion Status
 - Lab 05: In Progress
@@ -156,12 +141,10 @@ For questions or clarification on lab content, refer to:
 - **Language**: Shell Scripts
 - **Path**: computer_networks_lab_05/
 - **Lab Manual Reference**: 23F3043_CN_Lab_06
-- **Week Reference**: Lab 6 week 6 materials
 
 ## Last Updated
 May 18, 2026
 
 ---
 
-*This README is maintained as part of the Computer Networks course laboratory series (23F3043).*
-*For Lab 6 solutions, refer to 23F3043_CN_Lab_06.docx and Lab 6 week 6.docx documents.*
+*This README is maintained as part of the Computer Networks course laboratory series.*
