@@ -11,6 +11,7 @@ Lab 5 covers fundamental networking concepts and practical implementation exerci
 - **Week**: Week 5
 - **Institution**: Educational Institution
 - **Subject Area**: Computer Networks
+- **Difficulty Level**: Intermediate to Advanced
 
 ## Included Files
 
@@ -20,11 +21,12 @@ Lab 5 covers fundamental networking concepts and practical implementation exerci
 
 ## Related Labs
 
-### Lab 6
+### Lab 6 (Next Lab)
 **Course Code**: 23F3043 - Computer Networks
 **Status**: Solution Available
 **Manual**: 23F3043_CN_Lab_06
 **Week**: Week 6
+**Description**: Advanced networking implementation with complete solution reference
 
 Lab 6 builds upon the concepts learned in Lab 5. The manual document provides detailed instructions and solutions.
 
@@ -42,15 +44,17 @@ Lab 6 builds upon the concepts learned in Lab 5. The manual document provides de
 - Network simulation tools or real network environment as required
 - Basic networking knowledge from Lab 1-4
 - Linux/Unix command line experience recommended
+- Programming language knowledge (Python, C, or similar) for implementation
 
 ## Learning Objectives
 This lab series helps students understand:
-- Network protocols and communication
-- Packet analysis and network troubleshooting
-- Configuration of network devices
-- Network security fundamentals
+- Network protocols and communication mechanisms
+- Packet analysis and network troubleshooting techniques
+- Configuration of network devices and interfaces
+- Network security fundamentals and best practices
 - Practical implementation of network concepts
-- Advanced protocol implementations
+- Advanced protocol implementations and optimization
+- Real-world networking challenges and solutions
 
 ## File Format Support
 The included .docx files can be opened with:
@@ -63,17 +67,26 @@ The included .docx files can be opened with:
 ## Getting Started
 1. Review the lab documentation files
 2. Follow the instructions provided in the manual
-3. Complete all required exercises
+3. Complete all required exercises in order
 4. Reference Lab 6 materials for advanced topics
 5. Test your implementations thoroughly
+6. Document all results and observations
+
+## Lab Workflow
+1. **Preparation**: Review all documentation
+2. **Implementation**: Write and test code
+3. **Testing**: Verify all functionality
+4. **Documentation**: Record findings
+5. **Submission**: Complete lab report
 
 ## Notes
 - Ensure you have the appropriate software to view .docx files
 - Keep all lab files organized in this directory
 - Refer to Lab 6 documentation for solutions and advanced implementations
 - Complete exercises sequentially as they build upon each other
-- Save your work regularly
+- Save your work regularly (use version control)
 - Document your findings and observations
+- Test on multiple platforms if applicable
 
 ## Additional Resources
 For Lab 6 solutions and advanced topics, refer to:
@@ -86,3 +99,6 @@ For questions or clarification on lab content, refer to the official lab manual 
 ## Completion Status
 - Lab 05: In Progress
 - Lab 06: Available (Solution)
+
+## Last Updated
+May 18, 2026
