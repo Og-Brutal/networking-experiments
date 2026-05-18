@@ -14,6 +14,7 @@ advanced networking scenarios and protocol implementations.
 - **Subject Area**: Computer Networks
 - **Difficulty Level**: Intermediate to Advanced
 - **Expected Duration**: 2-3 weeks
+- **Credits**: 2 Lab Credits
 
 ## Included Files
 
@@ -31,6 +32,7 @@ advanced networking scenarios and protocol implementations.
 **Description**: Advanced networking implementation with complete solution reference
 
 Lab 6 builds upon the concepts learned in Lab 5. The manual document provides detailed instructions and solutions.
+The solution manual can be used as a reference for understanding advanced implementation techniques.
 
 ### Lab Series Progression
 - Lab 01 - Networking Fundamentals (Week 1)
@@ -48,6 +50,8 @@ Lab 6 builds upon the concepts learned in Lab 5. The manual document provides de
 - Linux/Unix command line experience recommended
 - Programming language knowledge (Python, C, or similar) for implementation
 - Network analysis tools (Wireshark recommended)
+- Version control system (Git) for code management
+- Development environment with compiler/interpreter
 
 ## Learning Objectives
 This lab series helps students understand:
@@ -59,6 +63,7 @@ This lab series helps students understand:
 - Advanced protocol implementations and optimization
 - Real-world networking challenges and solutions
 - Performance optimization and monitoring
+- Protocol analysis and reverse engineering
 
 ## File Format Support
 The included .docx files can be opened with:
@@ -75,6 +80,7 @@ The included .docx files can be opened with:
 4. Reference Lab 6 materials for advanced topics
 5. Test your implementations thoroughly
 6. Document all results and observations
+7. Use version control for all changes
 
 ## Lab Workflow
 1. **Preparation**: Review all documentation and prerequisites
@@ -82,7 +88,8 @@ The included .docx files can be opened with:
 3. **Testing**: Verify all functionality against requirements
 4. **Documentation**: Record findings and observations
 5. **Troubleshooting**: Debug any issues
-6. **Submission**: Complete lab report with results
+6. **Analysis**: Analyze results and performance
+7. **Submission**: Complete lab report with results
 
 ## Notes
 - Ensure you have the appropriate software to view .docx files
@@ -93,10 +100,11 @@ The included .docx files can be opened with:
 - Document your findings and observations
 - Test on multiple platforms if applicable
 - Keep backups of all important files
+- Follow coding best practices and style guidelines
 
 ## Additional Resources
 For Lab 6 solutions and advanced topics, refer to:
-- `23F3043_CN_Lab_06.docx` (Lab 6 Manual)
+- `23F3043_CN_Lab_06.docx` (Lab 6 Manual with Solutions)
 - `Lab 6 week 6.docx` (Week 6 Supplementary Materials)
 
 ## Support
@@ -104,7 +112,7 @@ For questions or clarification on lab content, refer to the official lab manual 
 
 ## Completion Status
 - Lab 05: In Progress
-- Lab 06: Available (Solution)
+- Lab 06: Available (Solution Available)
 
 ## Last Updated
 May 18, 2026
