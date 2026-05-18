@@ -4,7 +4,7 @@
 This directory contains the files for Laboratory 5 of the Computer Networks course (23F3043).
 Lab 5 covers fundamental networking concepts and practical implementation exercises, focusing on
 advanced networking scenarios and protocol implementations. This lab emphasizes hands-on experience
-with real-world networking challenges.
+with real-world networking challenges and develops critical problem-solving skills.
 
 ## Course Information
 - **Course Code**: 23F3043
@@ -17,6 +17,7 @@ with real-world networking challenges.
 - **Expected Duration**: 2-3 weeks
 - **Credits**: 2 Lab Credits
 - **Prerequisites**: Lab 01-04 completion
+- **Repository**: Og-Brutal/networking-experiments
 
 ## Included Files
 
@@ -68,6 +69,7 @@ This lab series helps students understand:
 - Performance optimization and monitoring
 - Protocol analysis and reverse engineering
 - Software-defined networking concepts
+- Network automation and scripting
 
 ## File Format Support
 The included .docx files can be opened with:
@@ -86,6 +88,7 @@ The included .docx files can be opened with:
 6. Document all results and observations
 7. Use version control for all changes
 8. Create regular commits for your work
+9. Review Lab 6 solution for reference
 
 ## Lab Workflow
 1. **Preparation**: Review all documentation and prerequisites
@@ -100,7 +103,7 @@ The included .docx files can be opened with:
 ## Notes
 - Ensure you have the appropriate software to view .docx files
 - Keep all lab files organized in this directory
-- Refer to Lab 6 documentation for solutions and advanced implementations
+- Refer to Lab 6 documentation (23F3043_CN_Lab_06) for solutions and advanced implementations
 - Complete exercises sequentially as they build upon each other
 - Save your work regularly (use version control)
 - Document your findings and observations
@@ -108,11 +111,14 @@ The included .docx files can be opened with:
 - Keep backups of all important files
 - Follow coding best practices and style guidelines
 - Review Lab 6 solution manual for reference implementations
+- Maintain organized repository structure
 
 ## Additional Resources
 For Lab 6 solutions and advanced topics, refer to:
 - `23F3043_CN_Lab_06.docx` (Lab 6 Manual with Solutions)
 - `Lab 6 week 6.docx` (Week 6 Supplementary Materials)
+- Official course materials and lecture notes
+- Recommended textbooks on networking
 
 ## Support
 For questions or clarification on lab content, refer to the official lab manual and course materials.
@@ -120,6 +126,12 @@ For questions or clarification on lab content, refer to the official lab manual 
 ## Completion Status
 - Lab 05: In Progress
 - Lab 06: Available (Solution Available)
+
+## Repository Information
+- **Repository Name**: networking-experiments
+- **Owner**: Og-Brutal
+- **Language**: Shell Scripts
+- **Path**: computer_networks_lab_05/
 
 ## Last Updated
 May 18, 2026
