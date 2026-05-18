@@ -3,7 +3,8 @@
 ## Overview
 This directory contains the files for Laboratory 5 of the Computer Networks course (23F3043).
 Lab 5 covers fundamental networking concepts and practical implementation exercises, focusing on
-advanced networking scenarios and protocol implementations.
+advanced networking scenarios and protocol implementations. This lab emphasizes hands-on experience
+with real-world networking challenges.
 
 ## Course Information
 - **Course Code**: 23F3043
@@ -15,6 +16,7 @@ advanced networking scenarios and protocol implementations.
 - **Difficulty Level**: Intermediate to Advanced
 - **Expected Duration**: 2-3 weeks
 - **Credits**: 2 Lab Credits
+- **Prerequisites**: Lab 01-04 completion
 
 ## Included Files
 
@@ -44,7 +46,7 @@ The solution manual can be used as a reference for understanding advanced implem
 
 ## Requirements
 - Microsoft Word or compatible document viewer (e.g., LibreOffice, Google Docs)
-- Standard text editor for scripting and configuration files
+- Standard text editor for scripting and configuration files (VS Code, Sublime Text, Vim)
 - Network simulation tools or real network environment as required
 - Basic networking knowledge from Lab 1-4
 - Linux/Unix command line experience recommended
@@ -52,6 +54,7 @@ The solution manual can be used as a reference for understanding advanced implem
 - Network analysis tools (Wireshark recommended)
 - Version control system (Git) for code management
 - Development environment with compiler/interpreter
+- Networking protocols knowledge
 
 ## Learning Objectives
 This lab series helps students understand:
@@ -64,6 +67,7 @@ This lab series helps students understand:
 - Real-world networking challenges and solutions
 - Performance optimization and monitoring
 - Protocol analysis and reverse engineering
+- Software-defined networking concepts
 
 ## File Format Support
 The included .docx files can be opened with:
@@ -81,6 +85,7 @@ The included .docx files can be opened with:
 5. Test your implementations thoroughly
 6. Document all results and observations
 7. Use version control for all changes
+8. Create regular commits for your work
 
 ## Lab Workflow
 1. **Preparation**: Review all documentation and prerequisites
@@ -89,7 +94,8 @@ The included .docx files can be opened with:
 4. **Documentation**: Record findings and observations
 5. **Troubleshooting**: Debug any issues
 6. **Analysis**: Analyze results and performance
-7. **Submission**: Complete lab report with results
+7. **Review**: Check Lab 6 solution for reference
+8. **Submission**: Complete lab report with results
 
 ## Notes
 - Ensure you have the appropriate software to view .docx files
@@ -101,6 +107,7 @@ The included .docx files can be opened with:
 - Test on multiple platforms if applicable
 - Keep backups of all important files
 - Follow coding best practices and style guidelines
+- Review Lab 6 solution manual for reference implementations
 
 ## Additional Resources
 For Lab 6 solutions and advanced topics, refer to:
