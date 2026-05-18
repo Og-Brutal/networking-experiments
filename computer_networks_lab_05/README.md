@@ -2,7 +2,8 @@
 
 ## Overview
 This directory contains the files for Laboratory 5 of the Computer Networks course (23F3043).
-Lab 5 covers fundamental networking concepts and practical implementation exercises.
+Lab 5 covers fundamental networking concepts and practical implementation exercises, focusing on
+advanced networking scenarios and protocol implementations.
 
 ## Course Information
 - **Course Code**: 23F3043
@@ -12,6 +13,7 @@ Lab 5 covers fundamental networking concepts and practical implementation exerci
 - **Institution**: Educational Institution
 - **Subject Area**: Computer Networks
 - **Difficulty Level**: Intermediate to Advanced
+- **Expected Duration**: 2-3 weeks
 
 ## Included Files
 
@@ -31,12 +33,12 @@ Lab 5 covers fundamental networking concepts and practical implementation exerci
 Lab 6 builds upon the concepts learned in Lab 5. The manual document provides detailed instructions and solutions.
 
 ### Lab Series Progression
-- Lab 01 - Networking Fundamentals
-- Lab 02 - Protocol Basics
-- Lab 03 - Network Configuration
-- Lab 04 - Intermediate Networking
-- Lab 05 - Current Lab (Advanced Concepts)
-- Lab 06 - Advanced Implementation (Solution Available)
+- Lab 01 - Networking Fundamentals (Week 1)
+- Lab 02 - Protocol Basics (Week 2)
+- Lab 03 - Network Configuration (Week 3)
+- Lab 04 - Intermediate Networking (Week 4)
+- Lab 05 - Current Lab (Week 5 - Advanced Concepts)
+- Lab 06 - Advanced Implementation (Week 6 - Solution Available)
 
 ## Requirements
 - Microsoft Word or compatible document viewer (e.g., LibreOffice, Google Docs)
@@ -45,6 +47,7 @@ Lab 6 builds upon the concepts learned in Lab 5. The manual document provides de
 - Basic networking knowledge from Lab 1-4
 - Linux/Unix command line experience recommended
 - Programming language knowledge (Python, C, or similar) for implementation
+- Network analysis tools (Wireshark recommended)
 
 ## Learning Objectives
 This lab series helps students understand:
@@ -55,6 +58,7 @@ This lab series helps students understand:
 - Practical implementation of network concepts
 - Advanced protocol implementations and optimization
 - Real-world networking challenges and solutions
+- Performance optimization and monitoring
 
 ## File Format Support
 The included .docx files can be opened with:
@@ -65,7 +69,7 @@ The included .docx files can be opened with:
 - PDF converters
 
 ## Getting Started
-1. Review the lab documentation files
+1. Review the lab documentation files thoroughly
 2. Follow the instructions provided in the manual
 3. Complete all required exercises in order
 4. Reference Lab 6 materials for advanced topics
@@ -73,11 +77,12 @@ The included .docx files can be opened with:
 6. Document all results and observations
 
 ## Lab Workflow
-1. **Preparation**: Review all documentation
+1. **Preparation**: Review all documentation and prerequisites
 2. **Implementation**: Write and test code
-3. **Testing**: Verify all functionality
-4. **Documentation**: Record findings
-5. **Submission**: Complete lab report
+3. **Testing**: Verify all functionality against requirements
+4. **Documentation**: Record findings and observations
+5. **Troubleshooting**: Debug any issues
+6. **Submission**: Complete lab report with results
 
 ## Notes
 - Ensure you have the appropriate software to view .docx files
@@ -87,6 +92,7 @@ The included .docx files can be opened with:
 - Save your work regularly (use version control)
 - Document your findings and observations
 - Test on multiple platforms if applicable
+- Keep backups of all important files
 
 ## Additional Resources
 For Lab 6 solutions and advanced topics, refer to:
