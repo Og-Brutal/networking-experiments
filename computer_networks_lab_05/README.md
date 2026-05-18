@@ -30,6 +30,7 @@ Lab 6 builds upon the concepts learned in Lab 5. The manual document provides de
 - Microsoft Word or compatible document viewer (e.g., LibreOffice, Google Docs)
 - Standard text editor for scripting and configuration files
 - Network simulation tools or real network environment as required
+- Basic networking knowledge from Lab 1-4
 
 ## Learning Objectives
 This lab series helps students understand:
@@ -37,6 +38,7 @@ This lab series helps students understand:
 - Packet analysis and network troubleshooting
 - Configuration of network devices
 - Network security fundamentals
+- Practical implementation of network concepts
 
 ## File Format Support
 The included .docx files can be opened with:
@@ -56,6 +58,7 @@ The included .docx files can be opened with:
 - Keep all lab files organized in this directory
 - Refer to Lab 6 documentation for solutions and advanced implementations
 - Complete exercises sequentially as they build upon each other
+- Save your work regularly
 
 ## Additional Resources
 For Lab 6 solutions and advanced topics, refer to:
