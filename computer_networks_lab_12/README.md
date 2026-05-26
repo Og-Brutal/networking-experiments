@@ -56,3 +56,22 @@ This repository directory contains the implementation files, topologies, calcula
   | :--- | :--- | :--- | :--- | :--- | :--- |
   | **Subnet 1** | 203.45.67.0 | 255.255.255.240 | 203.45.67.1 | 203.45.67.14 | 203.45.67.15 |
   | **Subnet 2** | 203.45.67.16 | 255.255.255.240 | 203.45.67.17 | 203.45.67.30 | 203.45.67.31 |
+
+---
+
+### 2. VLSM Subnetting Designs
+
+#### IP = 10.0.0.0 (Class A)
+- **Subnets ordered by Host Requirements (Highest to Lowest)**:
+  1. **Right LAN (2000 hosts)**: Requires $2^{11} = 2048$ addresses.
+     - **Subnet Mask**: /21 (255.255.248.0)
+     - **Range**: 10.0.0.0 - 10.0.7.255 (Usable: 10.0.0.1 to 10.0.7.254)
+  2. **Left LAN (1000 hosts)**: Requires $2^{10} = 1024$ addresses.
+     - **Subnet Mask**: /22 (255.255.252.0)
+     - **Range**: 10.0.8.0 - 10.0.11.255 (Usable: 10.0.8.1 to 10.0.11.254)
+  3. **Middle LAN (400 hosts)**: Requires $2^9 = 512$ addresses.
+     - **Subnet Mask**: /23 (255.255.254.0)
+     - **Range**: 10.0.12.0 - 10.0.13.255 (Usable: 10.0.12.1 to 10.0.13.254)
+  4. **WAN Link (2 hosts)**: Requires $2^2 = 4$ addresses.
+     - **Subnet Mask**: /30 (255.255.255.252)
+     - **Range**: 10.0.14.0 - 10.0.14.3 (Usable: 10.0.14.1 to 10.0.14.2)
