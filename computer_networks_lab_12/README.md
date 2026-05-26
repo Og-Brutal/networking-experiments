@@ -75,3 +75,60 @@ This repository directory contains the implementation files, topologies, calcula
   4. **WAN Link (2 hosts)**: Requires $2^2 = 4$ addresses.
      - **Subnet Mask**: /30 (255.255.255.252)
      - **Range**: 10.0.14.0 - 10.0.14.3 (Usable: 10.0.14.1 to 10.0.14.2)
+
+---
+
+## 🛠️ Cisco Router Interface & Static Routing Commands
+
+### 1. Task 1 (FLSM Topology Routing)
+- **Router 1 Interfaces (Router 4)**:
+  ```ios
+  interface FastEthernet0/0
+   ip address 196.10.0.1 255.255.255.224
+   no shutdown
+  interface Serial2/0
+   ip address 196.10.0.97 255.255.255.224
+   no shutdown
+  ```
+- **Router 2 Interfaces (Router 5)**:
+  ```ios
+  interface FastEthernet0/0
+   ip address 196.10.0.65 255.255.255.224
+   no shutdown
+  interface Serial2/0
+   ip address 196.10.0.98 255.255.255.224
+   no shutdown
+  ```
+- **Static Route Configurations**:
+  - **Router 1**: `ip route 196.10.0.64 255.255.255.224 196.10.0.98`
+  - **Router 2**: `ip route 196.10.0.0 255.255.255.224 196.10.0.97`
+
+### 2. Task 2 (VLSM Topology Routing)
+- **Router 1 (Router 4)**:
+  ```ios
+  interface FastEthernet0/0
+   ip address 10.0.8.1 255.255.252.0
+   no shutdown
+  interface Serial2/0
+   ip address 10.0.14.1 255.255.255.252
+   no shutdown
+  ```
+- **Router 2 (Router 5)**:
+  ```ios
+  interface FastEthernet0/0
+   ip address 10.0.0.1 255.255.248.0
+   no shutdown
+  interface Serial2/0
+   ip address 10.0.14.2 255.255.255.252
+   no shutdown
+  ```
+- **Static Route Configurations**:
+  - **Router 1**: `ip route 10.0.0.0 255.255.248.0 10.0.14.2`
+  - **Router 2**: `ip route 10.0.8.0 255.255.252.0 10.0.14.1`
+
+---
+
+## 📈 Verification Tests
+End-to-end reachability has been successfully tested using ICMP echo requests (ping commands) in the Cisco Packet Tracer command terminal:
+- **Task 1 Test**: PC0 (`196.10.0.2`) successfully pings PC2 (`196.10.0.66`) crossing the serial connection interface, confirming correct FLSM routing tables.
+- **Task 2 Test**: PC0 (`10.0.8.2`) successfully pings PC4 (`10.0.0.2`), confirming correct VLSM routing tables and zero packet drops.
