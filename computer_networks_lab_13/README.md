@@ -6,7 +6,7 @@ This repository directory contains the implementation files, topologies, and rep
 
 ## 🎯 Lab Objectives
 1. Understand and implement **RIP (Routing Information Protocol)** — a distance-vector protocol using hop count as a routing metric.
-2. Understand and implement **EIGRP (Enhanced Interior Gateway Routing Protocol)** — Cisco's hybrid protocol using composite metrics (bandwidth, delay).
+2. Understand and implement **EIGRP (Enhanced Interior Gateway Routing Protocol)** — Cisco's hybrid protocol using composite metrics (bandwidth, delay). 
 3. Understand and implement **OSPF (Open Shortest Path First)** — a link-state protocol using Dijkstra's SPF algorithm.
 4. Design VLSM-based subnets for OSPF topology to accommodate variable host requirements (4000, 3000, 2500, 1800 hosts).
 5. Verify dynamic routing convergence using ping tests across multi-router topologies. 
