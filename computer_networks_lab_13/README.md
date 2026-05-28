@@ -52,3 +52,70 @@ network 192.168.10.0
 network 192.168.20.0
 network 192.168.30.0
 ```
+
+---
+
+## ✍️ Task 2: EIGRP Protocol
+
+### Network Topology
+An 8-router ring structure (R0-R7) with two internal cross-links (R3-R4, R4-R5), a PC-side LAN (via R3) and a Server-side LAN (via R5). Autonomous System number: 100.
+
+### EIGRP Configuration
+```ios
+enable
+conf t
+router eigrp 100
+no auto-summary
+network 192.168.0.0
+network 192.168.1.0
+network 192.168.2.0
+network 10.0.0.0
+network 20.0.0.0
+```
+
+---
+
+## ✍️ Task 3: OSPF with VLSM
+
+### VLSM LAN Subnet Allocation
+| Purpose | Network | Mask |
+| :--- | :--- | :--- |
+| LAN (4000 hosts) | 100.0.0.0/20 | 255.255.240.0 |
+| LAN (3000 hosts) | 100.0.16.0/20 | 255.255.240.0 |
+| LAN (2500 hosts) | 100.0.32.0/20 | 255.255.240.0 |
+| LAN (1800 hosts) | 100.0.48.0/21 | 255.255.248.0 |
+
+### WAN Serial Link Subnets
+| Link | Network | IPs |
+| :--- | :--- | :--- |
+| R0–R1 | 100.0.56.0/30 | .1 / .2 |
+| R0–R2 | 100.0.56.4/30 | .5 / .6 |
+| R1–R3 | 100.0.56.8/30 | .9 / .10 |
+| R2–R3 | 100.0.56.12/30 | .13 / .14 |
+
+### OSPF Configuration
+```ios
+router ospf 1
+network 100.0.0.0 0.255.255.255 area 0
+```
+
+---
+
+## 📊 Protocol Comparison
+
+| Feature | RIP | EIGRP | OSPF |
+| :--- | :--- | :--- | :--- |
+| **Type** | Distance-Vector | Hybrid (Advanced DV) | Link-State |
+| **Metric** | Hop Count (max 15) | Composite (BW + Delay) | Cost (based on BW) |
+| **Algorithm** | Bellman-Ford | DUAL | Dijkstra SPF |
+| **Convergence** | Slow | Fast | Fast |
+| **VLSM Support** | v2 only | Yes | Yes |
+| **Scalability** | Small networks | Medium-Large | Large enterprise |
+| **Standard** | Open (RFC 2453) | Cisco Proprietary | Open (RFC 2328) |
+
+---
+
+## 📈 Verification Tests
+- **Task 1 (RIP)**: Successful pings across all 3 LANs (192.168.10.x ↔ 192.168.20.x ↔ 192.168.30.x).
+- **Task 2 (EIGRP)**: PC (10.0.0.2) successfully pings Server (20.0.0.2) across the 8-router ring topology.
+- **Task 3 (OSPF)**: All subnets (100.0.0.0/20, 100.0.16.0/20, etc.) are reachable via OSPF dynamic routing.
