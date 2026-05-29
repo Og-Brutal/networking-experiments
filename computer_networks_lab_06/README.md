@@ -9,7 +9,7 @@ deployment, and troubleshooting.
 
 ## Course Information
 - **Course Code**: 23F3043
-- **Course**: Computer Networks (CN)
+- **Course**: Computer Networks (CN) 
 - **Lab Level**: Lab 05
 - **Week**: Week 5
 - **Institution**: Educational Institution
