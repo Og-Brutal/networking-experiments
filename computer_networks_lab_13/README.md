@@ -3,7 +3,7 @@
 This repository directory contains the implementation files, topologies, and report for **Lab 13: Dynamic Routing Protocols (RIP, EIGRP & OSPF)**.
 
 ---
-
+ 
 ## 🎯 Lab Objectives
 1. Understand and implement **RIP (Routing Information Protocol)** — a distance-vector protocol using hop count as a routing metric.
 2. Understand and implement **EIGRP (Enhanced Interior Gateway Routing Protocol)** — Cisco's hybrid protocol using composite metrics (bandwidth, delay). 
