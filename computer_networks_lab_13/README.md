@@ -14,7 +14,7 @@ This repository directory contains the implementation files, topologies, and rep
 ---
 
 ## 💻 Lab Files
-| File | Description |
+| File | Description | 
 | :--- | :--- |
 | `Lab 13 week 13 CL3001 .docx` | Official lab manual |
 | `cn_lab_13_01.pkt` | Cisco Packet Tracer — Task 1 (RIP) topology |
