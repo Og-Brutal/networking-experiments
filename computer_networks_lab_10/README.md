@@ -3,7 +3,7 @@
 ## Overview
 This lab covers the design, implementation, and analysis of **Persistent Connections** and **Concurrent Servers** using Python socket programming in Cisco Packet Tracer. Sockets that persist over multiple transmissions (persistent) and handle multiple clients simultaneously (concurrent) are fundamental building blocks of modern network applications (e.g., HTTP/1.1+, database streams, multiplayer online games, and chat systems). This lab implements both TCP-based and UDP-based persistent and concurrent communication, verifying PDU structures and Layer 4 states in  Simulation Mode. 
 
-## Objectives
+## Objectives 
 *   Configure a virtual subnet in Cisco Packet Tracer including PC clients, a server, and a switch.
 *   Implement a **Persistent TCP Server** and Client that sustains communication over multiple messages within a single TCP session.
 *   Implement a **Persistent UDP Server** and Client that handles successive datagrams without state-setup overhead.
