@@ -25,3 +25,5 @@ If you want, I can extract text from these .docx files and include a short plain
  - Commit 7: Clarify file descriptions.
  - Commit 8: Add instruction for opening files on Windows.
  - Commit 9: Finalize README for Lab 14.
+ 
+Last updated: 2026-05-30
