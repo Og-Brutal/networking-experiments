@@ -20,3 +20,4 @@ If you want, I can extract text from these .docx files and include a short plain
  - Commit 2: Added the commit history section to the README.
  - Commit 3: Minor wording tweak and clarification.
  - Commit 4: Formatting and line-break improvements.
+ - Commit 5: Minor grammar tweak.
