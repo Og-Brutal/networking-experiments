@@ -14,3 +14,6 @@ Summary
 - The student's file documents what was done during the lab (observations, steps, results).
 
 If you want, I can extract text from these .docx files and include a short plain-text summary in this README.
+
+## Commit history
+- Commit 1: Added initial README describing lab manual and student report.
