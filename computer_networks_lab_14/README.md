@@ -22,3 +22,6 @@ If you want, I can extract text from these .docx files and include a short plain
  - Commit 4: Formatting and line-break improvements.
  - Commit 5: Minor grammar tweak.
  - Commit 6: Note added about optional .docx extraction.
+ - Commit 7: Clarify file descriptions.
+ - Commit 8: Add instruction for opening files on Windows.
+ - Commit 9: Finalize README for Lab 14.
